@@ -1,6 +1,6 @@
-<mxfile host="www.draw.io" modified="2020-01-17T11:48:06.890Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36" etag="BROX49v3_R6Vrwvfnkey" version="12.5.5" type="github">
+<mxfile host="www.draw.io" modified="2020-01-17T12:09:06.256Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36" etag="75UqnIWRN7ezeLxCKsfi" version="12.5.5" type="github">
   <diagram id="CyaSoa7KwjpoHzu_7nh0" name="Page-1">
-    <mxGraphModel dx="1452" dy="711" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1406" dy="685" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
@@ -28,7 +28,7 @@
         <mxCell id="yrLDoxOuE4Vq6cpKQ8Pf-13" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="yrLDoxOuE4Vq6cpKQ8Pf-11" vertex="1">
           <mxGeometry y="80" width="330" height="8" as="geometry"/>
         </mxCell>
-        <mxCell id="yrLDoxOuE4Vq6cpKQ8Pf-14" value="+pbo()&#xa;+ get_alv_grid_available()&#xa;+ get_available_grid_data()&#xa;# build_available_alv_grid()&#xa;# refresh_available_alv_grid()&#xa;+ exclude_alv_grid_buttons()&#xa;# fill_alv_available_decision()&#xa;# det_alv_grid_fieldcat()&#xa;# det_category_from_sel_alv_grid()&#xa;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="yrLDoxOuE4Vq6cpKQ8Pf-11" vertex="1">
+        <mxCell id="yrLDoxOuE4Vq6cpKQ8Pf-14" value="+pbo()&#xa;+ pia()&#xa;+ get_alv_grid_available()&#xa;+ get_available_grid_data()&#xa;# build_available_alv_grid()&#xa;# refresh_available_alv_grid()&#xa;# exclude_alv_grid_buttons()&#xa;# fill_alv_available_decision()&#xa;# det_alv_grid_fieldcat()&#xa;# det_category_from_sel_alv_grid()&#xa;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="yrLDoxOuE4Vq6cpKQ8Pf-11" vertex="1">
           <mxGeometry y="88" width="330" height="202" as="geometry"/>
         </mxCell>
         <mxCell id="yrLDoxOuE4Vq6cpKQ8Pf-15" value="/IBS/CLFM_DEC_UI_ELEMENTS" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
@@ -49,7 +49,7 @@
         <mxCell id="yrLDoxOuE4Vq6cpKQ8Pf-22" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="yrLDoxOuE4Vq6cpKQ8Pf-20" vertex="1">
           <mxGeometry y="90" width="330" height="8" as="geometry"/>
         </mxCell>
-        <mxCell id="yrLDoxOuE4Vq6cpKQ8Pf-23" value="pbo ()&#xa;+ pai()&#xa;+ get_selected_grid_data()&#xa;+ get_selected_grid()&#xa;+ build_selected_alv_grid()&#xa;# refresh_selected_alv_grid()&#xa;# add_entry_to_selected_grid()&#xa;# remove_from_selected_grid()&#xa;+ exclude_alv_grid_buttons()&#xa;+ get_det_gategory_from_sel_alv_grid()&#xa;+ get_det_rsn_id_from_sel_alv_grid()&#xa;# add_decision_to_selected_grid()&#xa;# get_alv_grid_selected()&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="yrLDoxOuE4Vq6cpKQ8Pf-20" vertex="1">
+        <mxCell id="yrLDoxOuE4Vq6cpKQ8Pf-23" value="+pbo ()&#xa;+ pai()&#xa;+ get_selected_grid_data()&#xa;+ get_selected_grid()&#xa;+ get_det_gategory_from_sel_alv_grid()&#xa;+ get_det_rsn_id_from_sel_alv_grid()&#xa;# build_selected_alv_grid()&#xa;# refresh_selected_alv_grid()&#xa;# add_entry_to_selected_grid()&#xa;# remove_from_selected_grid()&#xa;# exclude_alv_grid_buttons()&#xa;# add_decision_to_selected_grid()&#xa;# get_alv_grid_selected()&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="yrLDoxOuE4Vq6cpKQ8Pf-20" vertex="1">
           <mxGeometry y="98" width="330" height="212" as="geometry"/>
         </mxCell>
         <mxCell id="yrLDoxOuE4Vq6cpKQ8Pf-24" value="/IBS/CLFM_DEC_EDITOR_VIEW" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
